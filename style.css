@@ -35,6 +35,8 @@ nav {
 .container-banner{
     margin-top: 30px;
     background-image: url(./assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -84,12 +86,16 @@ nav {
     width: 150px;
     height:40px;
 }
-.speakers{
+
+.speakers h1 {
     text-align: center;
-    display: grid;
 }
-.speaker {
+.speakers {
+
     display: grid;
-    grid-template-columns: (2,2);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: auto;
     border: 2px solid gray;
+    padding-top: 10px;
 }
