@@ -1,0 +1,1 @@
+Act as a website analysts, suggest me about a section. The website top section contain navigation, logo, register button, second part have banner, button, third part have speakers image and short description, third part contain cards regarding 3 subscriptions, and fifth one is footer, what can be the 4th section. Its a web developer conference related website
