@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    margin: 10px 60px;
+    margin: 10px 80px;
 }
 .div {
     flex: 1;
@@ -33,7 +33,7 @@ nav {
     margin-top: 25px;
 }
 .container-banner{
-    margin-top: 30px;
+    margin: 50px 50px 50px 50px;
     background-image: url(./assets/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -77,14 +77,15 @@ nav {
     margin-top: auto;
 }
 .lbtn {
-    color: aliceblue;
+    color: white;
+    font-size: 18px;
     text-align: center;
     background-color: rgb(67, 67, 248);
     border-radius: 10px;
     border: none;
     padding: 15px 10px;
-    width: 150px;
-    height:40px;
+    width: 200px;
+    height:50px;
 }
 
 .heading-on-speakers, h1 {
@@ -114,4 +115,60 @@ a {
     color: blue;
     font-weight: bold;
     text-decoration: none;
+}
+
+.package h3 {
+    color: gray;
+}
+.package ul {
+    text-align: justify;
+}
+.package-details {
+    display: flex;
+}
+.Standard {
+    flex: 1;
+}
+.Pro {
+    flex: 1;
+}
+.Team {
+    flex: 1;
+}
+
+.Standard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Pro{
+    background-color: rgb(4, 4, 100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.Team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.Standard, .Pro, .Team {
+    height: 350px;
+    width: 100px;
+    padding: 50px;
+}
+.standard-button, .Team-button {
+    border: 1px solid blue;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px ;
+}
+.Pro-button {
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px ;
 }
